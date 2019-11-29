@@ -1,0 +1,9 @@
+# This the configuration file. 
+# The following rows lists the user
+# options that apply for each digitalisation
+input_directory=D:/distribution_digitizer/2019/mytest/input/
+output_directory=D:/distribution_digitizer/2019/mytest/output/
+scan_page=2
+axis_page=0
+format=tiff
+user_img_tag=
