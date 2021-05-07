@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Download"
-    url: /downloads.html
+  - title: "Installation"
+    url: /installation.html
   - title: "Tutorial"
-    url: /tutorials.html
+    url: /tutorial.html
   - title: "Data"
     url: /data.html
   - title: "Lab Home"
@@ -13,10 +13,10 @@ main:
 docs:
   - title: Content
     children:
-        - title: "Download"
-          url: /downloads.html
+        - title: "Installation"
+          url: /installation.html
         - title: "Tutorial"
-          url: /tutorials.html
+          url: /tutorial.html
         - title: "Data"
           url: /data.html
 

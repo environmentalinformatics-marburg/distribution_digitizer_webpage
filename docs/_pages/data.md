@@ -1,14 +1,23 @@
 ---
 title: Data
-id: Units
 header:
   image: "/assets/images/teaserimages/world_temp.png"
   caption: '[Environmental Informatics Marburg](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
-
 permalink: /data.html
 sidebar:
-#  nav: "units"
 ---
+
+<span style="color:red">
+The overview of available data for download from the strato server comes in here.
+</span>
+
+
+## Download test images
+You can download pictures from the Pakistan books [here](http://digitizer.umweltinformatik-marburg.de:4000/distributionDigitizer/data.html)
+locally.
+The pictures are saved special in .png format and you can use them later in the DD-App.
+
+
 
 ## The Butterflies of Turkmenistanj:
 You can download all the required files [here][1]
@@ -83,10 +92,3 @@ You can download all the required files [here][13]
 [13]:{{ site.url }}/distributionDigitizer/data/book13/
 
 
-
-
-
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
