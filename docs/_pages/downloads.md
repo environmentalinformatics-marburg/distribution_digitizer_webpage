@@ -2,12 +2,12 @@
 title: Downloads
 id: Units
 header:
-  image: "/assets/images/00-unit-splash.jpg"
-  caption: 'Photo: [**Environmental Informatics Marburg**](https://www.flickr.com/environmentalinformatics-marburg/)'
+  image: "/assets/images/teaserimages/world_temp.png"
+  caption: '[Environmental Informatics Marburg](https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics)'
 
 permalink: /downloads.html
 sidebar:
-  nav: "units"
+#  nav: "units"
 ---
 
 ## Tutorial 1 (Variante 1):

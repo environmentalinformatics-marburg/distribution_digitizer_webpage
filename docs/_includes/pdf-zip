@@ -1,3 +1,0 @@
-<div class="media-container">
-<a href="{{ site.baseurl }}/assets/pdf/{{ include.pdf-zip }}" download="{{ include.pdf-zip }}">Laden Sie ein Zip-Archiv mit allen Kurseinheiten.</a>
-</div>

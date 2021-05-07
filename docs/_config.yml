@@ -27,10 +27,6 @@ url: https://environmentalinformatics-marburg.github.io
 baseurl: "/distribution_digitizer_webpage"
 
 
-
-
-
-
 ##### Title ###################################################################
 title: Distribution Digitizer
 name: &name "Distribution Digitizer" # &name is a YAML anchor which can be *referenced late/r
@@ -78,27 +74,7 @@ collections:
   unit01:
     output: true
     permalink: /:collection/:title.html
-  unit02:
-    output: true
-    permalink: /:collection/:title.html
-  unit03:
-    output: true
-    permalink: /:collection/:title.html
-  unit04:
-    output: true
-    permalink: /:collection/:title.html
-  unit05:
-    output: true
-    permalink: /:collection/:title.html
-  unit06:
-    output: true
-    permalink: /:collection/:title.html
-  unit07:
-    output: true
-    permalink: /:collection/:title.html
-  worksheets:
-    output: true
-    permalink: /:collection/:title.html
+
 
 # Default settings
 defaults:

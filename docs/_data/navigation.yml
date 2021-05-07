@@ -1,21 +1,22 @@
 # main links
 main:
-  - title: "Tutorials"
+  - title: "Download"
+    url: /downloads.html
+  - title: "Tutorial"
     url: /tutorials.html
   - title: "Data"
     url: /data.html
-  - title: "Sitemap"
-    url: /sitemap.html
-  - title: "Downloads"
-    url: /downloads.html
+  - title: "Lab Home"
+    url: https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics
 
 
 docs:
-  - title: Ways out
+  - title: Content
     children:
-      - title: "ILIAS"
-        url: /units.html
-      - title: "Zu ILIAS"
-        url: https://ilias.uni-marburg.de/ilias.php?baseClass=ilRepositoryGUI&amp;client_id=UNIMR
-      - title: "Zum OER"
-        url: https://oer.uni-marburg.de/goto.php?target=cat_1651239&client_id=UNIMR
+        - title: "Download"
+          url: /downloads.html
+        - title: "Tutorial"
+          url: /tutorials.html
+        - title: "Data"
+          url: /data.html
+
