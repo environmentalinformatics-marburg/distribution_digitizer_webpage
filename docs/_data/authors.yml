@@ -1,0 +1,13 @@
+
+# /_data/authors.yml
+
+- ammoneit:
+  name             : "Rieke Ammoneit"
+  avatar           : "/assets/images/ammoneit.jpg"
+  email            : "ui-lehre@geo.uni-marburg.de"
+  home             : "https://www.uni-marburg.de/de/fb19/disciplines/physisch/umweltinformatik/umweltinformatik"
+- reudenbach:
+  name             : "Chris Reudenbach"
+  avatar           : "/assets/images/reudenbach.jpg"
+  email            : "ui-lehre@geo.uni-marburg.de"
+  home             : "https://www.uni-marburg.de/de/fb19/disciplines/physisch/umweltinformatik/umweltinformatik"
