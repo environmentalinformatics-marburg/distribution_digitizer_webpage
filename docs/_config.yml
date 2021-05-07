@@ -23,8 +23,12 @@
 #baseurl: "/data/UNIMR/lm_data/lm_2287352"
 
 # Serve on GitHub
-url: https://envima/envima.github.io
-baseurl: "/distributionDigitizer"
+url: https://environmentalinformatics-marburg.github.io
+baseurl: "/distribution_digitizer_webpage"
+
+
+
+
 
 
 ##### Title ###################################################################
