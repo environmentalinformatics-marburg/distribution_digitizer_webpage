@@ -18,77 +18,76 @@ locally.
 The pictures are saved special in .png format and you can use them later in the DD-App.
 
 
-
-## The Butterflies of Turkmenistanj:
-You can download all the required files [here][1]
-
-[1]:{{ site.url }}/distributionDigitizer/data/book1/
+[1]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_1.zip
 
 ## The Butterflies of Altai, Sayans and Tuva:
 You can download all the required files [here][2]
 
-[2]:{{ site.url }}/distributionDigitizer/data/book2/
+[2]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_2.zip
 
 ## The Butterflies of Russian Far East, Sakhalin, and Kuril Islands
 You can download all the required files [here][3]
 
-[3]:{{ site.url }}/distributionDigitizer/data/book3
+[3]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_3.zip
 
 ## The Butterflies of Mongolia
 
 You can download all the required files [here][4]
 
-[4]:{{ site.url }}/distributionDigitizer/data/book4/
+[4]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_4.zip
 
 ## The Butterflies of Transbaikal Siberia
 You can download all the required files [here][5]
 
-[5]:{{ site.url }}/distributionDigitizer/data/book5/
+[5]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_5.zip
 
 ## The Butterflies of Tajikistan
 You can download all the required files [here][6]
 
-[6]:{{ site.url }}/distributionDigitizer/data/book6/
+[6]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_6.zip
 
 ## The Butterflies of Kazakhstan
 You can download all the required files [here][7]
 
-[7]:{{ site.url }}/distributionDigitizer/data/book7/
+[7]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_7.zip
 
 ## The Butterflies of Kyrgyzstan
 You can download all the required files [here][8]
 
-[8]:{{ site.url }}/distributionDigitizer/data/book8/
+[8]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_8.zip
 
 ## The Butterflies of Uzbekistan
-You can download all the required files [here][8]
-
-[8]:{{ site.url }}/distributionDigitizer/data/book8/
-
-## The Butterflies of Caucasus and Transcaucasia
 You can download all the required files [here][9]
 
-[9]:{{ site.url }}/distributionDigitizer/data/book9/
+[9]:{{ site.url }}/distributionDigitizer/download/tutorial_1/book_9.zip
 
-## The Butterflies of Iran and Iraq
+## The Butterflies of Caucasus and Transcaucasia
 You can download all the required files [here][10]
 
-[10]:{{ site.url }}/distributionDigitizer/data/book10/
+[10]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_10.zip
 
-## The Butterflies of Ladak
+## The Butterflies of Iran and Iraq
 You can download all the required files [here][11]
 
-[11]:{{ site.url }}/distributionDigitizer/data/book11/
+[11]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_11.zip
+
+## The Butterflies of Ladak
+You can download all the required files [here][12]
+
+[12]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_12.zip
 
 ## The Butterflies of Pakistan
 
-You can download all the required files [here][12]
-
-[12]:{{ site.url }}/distributionDigitizer/data/book12/
-
-## The Butterflies of Afghanistan
 You can download all the required files [here][13]
 
-[13]:{{ site.url }}/distributionDigitizer/data/book13/
+[13]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_13.zip
+
+## The Butterflies of Afghanistan
+You can download all the required files [here][14]
+
+[14]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_14.zip
+
+
+
 
 
