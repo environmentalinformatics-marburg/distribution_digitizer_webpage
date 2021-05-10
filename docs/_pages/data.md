@@ -16,7 +16,7 @@ The overview of available data for download from the strato server comes in here
 You can download the pictures as zip-File from the books locally.
 The pictures are saved special in .png format and you can use them later in the DD-App.
 
-## The Butterflies of Turkmenistanj:
+## The Butterflies of Turkmenistan:
 You can download all the required files [here][1]
 
 [1]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_1.zip
