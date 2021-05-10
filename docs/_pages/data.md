@@ -60,7 +60,7 @@ You can download all the required files [here][8]
 ## The Butterflies of Uzbekistan
 You can download all the required files [here][9]
 
-[9]:{{ site.url }}/distributionDigitizer/download/tutorial_1/book_9.zip
+[10]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_9.zip
 
 ## The Butterflies of Caucasus and Transcaucasia
 You can download all the required files [here][10]
@@ -78,7 +78,6 @@ You can download all the required files [here][12]
 [12]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_12.zip
 
 ## The Butterflies of Pakistan
-
 You can download all the required files [here][13]
 
 [13]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_13.zip
