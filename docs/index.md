@@ -39,16 +39,8 @@ feature_row_disperse:
 
 
 
-# A great heading
-
-with great text.
 
 
-## I love buttons
-
-[go somewhere](/installation.html){: .btn .btn--info .btn--x-small} 
-
-## But feature rows are even better
 
 {% include feature_row id="feature_row_disperse" %}
 
