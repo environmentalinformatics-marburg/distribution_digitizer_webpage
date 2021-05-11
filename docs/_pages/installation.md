@@ -30,7 +30,15 @@ Open RStudio and execute:
 shiny::runGist("https://gist.github.com/sforteva/138af2ea533c2d1c3d1631b5d2d41e86")
 ```
 
-Now you should see the dialog box "DD User interface" if everything went fine.
+<br>
+
+Now you should see the dialog box "DD User interface" if everything went fine:
+
+![Digitizer Interface]({{site.baseurl}}/assets/images/shiny/DD_user_interface.png)
+<figcaption> The Digitizer user interface.
+</figcaption>
+
+
 
 
 
