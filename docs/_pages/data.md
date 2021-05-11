@@ -19,6 +19,7 @@ The pictures are saved in .png format for usage in the Digitizer app.
 Note that you have to unzip the zip-files before you can start working with the contained png-images.
 
 
+
 ## The Butterflies of Turkmenistan
 You can download a selection of downsampled pages [here][1].
 
@@ -89,6 +90,12 @@ You can download a selection of downsampled pages [here][14].
 
 [14]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_14.zip
 
+
+## Example page
+
+{% include image.html url="https://sites.google.com/site/tshikolovetsbooks/_/rsrc/1515846564591/home/1-the-butterflies-of-palaearctic-asia-series/vol-13-the-butterflies-of-afghanistan/Afghanistan%20p%2094%20sm.jpg" description="V. Tshikolovets, I. Pliushch, O. Pak and Y. Skrylnik (2018) The Butterflies of Afghanistan." %}
+
+Image linked from ["V. Tshikolovets, I. Pliushch, O. Pak and Y. Skrylnik (2018) The Butterflies of Afghanistan"](https://sites.google.com/site/tshikolovetsbooks/home/1-the-butterflies-of-palaearctic-asia-series/vol-13-the-butterflies-of-afghanistan){:target="_blank"}.
 
 
 

@@ -39,9 +39,6 @@ feature_row_disperse:
 
 
 
-
-
-
 {% include feature_row id="feature_row_disperse" %}
 
 
