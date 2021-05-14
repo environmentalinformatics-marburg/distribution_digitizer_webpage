@@ -19,6 +19,8 @@ The pictures are saved in .png format for usage in the Digitizer app.
 Note that you have to unzip the zip-files before you can start working with the contained png-images.
 
 
+<!--
+-->
 
 ## The Butterflies of Turkmenistan
 You can download a selection of downsampled pages [here][1].

@@ -15,3 +15,9 @@ Below you can find a tutorial for getting started with detecting maps on pages o
 
 
 {% include pdf pdf="Tutorial_template_matching.pdf" %}
+
+
+
+## Template matching
+
+{% include pdf pdf="template_matching.pdf" %}
