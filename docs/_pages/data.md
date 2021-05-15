@@ -50,47 +50,47 @@ You can download a selection of downsampled pages [here][5].
 ## The Butterflies of Tajikistan
 You can download a selection of downsampled pages [here][6].
 
-[6]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_6.zip
+[6]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_6.zip
 
 ## The Butterflies of Kazakhstan
 You can download a selection of downsampled pages [here][7].
 
-[7]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_7.zip
+[7]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_7.zip
 
 ## The Butterflies of Kyrgyzstan
 You can download a selection of downsampled pages [here][8].
 
-[8]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_8.zip
+[8]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_8.zip
 
 ## The Butterflies of Uzbekistan
 You can download a selection of downsampled pages [here][9].
 
-[9]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_9.zip
+[9]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_9.zip
 
 ## The Butterflies of Caucasus and Transcaucasia
 You can download a selection of downsampled pages [here][10].
 
-[10]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_10.zip
+[10]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_10.zip
 
 ## The Butterflies of Iran and Iraq
 You can download a selection of downsampled pages [here][11].
 
-[11]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_11.zip
+[11]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_11.zip
 
 ## The Butterflies of Ladak
 You can download a selection of downsampled pages [here][12].
 
-[12]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_12.zip
+[12]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_12.zip
 
 ## The Butterflies of Pakistan
 You can download a selection of downsampled pages [here][13].
 
-[13]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_13.zip
+[13]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_13.zip
 
 ## The Butterflies of Afghanistan
 You can download a selection of downsampled pages [here][14].
 
-[14]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_14.zip
+[14]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_14.zip
 
 
 ## Example page
