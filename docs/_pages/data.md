@@ -25,27 +25,27 @@ Note that you have to unzip the zip-files before you can start working with the 
 ## The Butterflies of Turkmenistan
 You can download a selection of downsampled pages [here][1].
 
-[1]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_1.zip
+[1]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_1.zip
 
 ## The Butterflies of Altai, Sayans and Tuva
 You can download a selection of downsampled pages [here][2].
 
-[2]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_2.zip
+[2]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_2.zip
 
 ## The Butterflies of Russian Far East, Sakhalin, and Kuril Islands
 You can download a selection of downsampled pages [here][3].
 
-[3]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_3.zip
+[3]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_3.zip
 
 ## The Butterflies of Mongolia
 You can download a selection of downsampled pages [here][4].
 
-[4]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_4.zip
+[4]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_4.zip
 
 ## The Butterflies of Transbaikal Siberia
 You can download a selection of downsampled pages [here][5].
 
-[5]:http://digitizer.umweltinformatik-marburg.de:4000//distributionDigitizer/download/tutorial_1/book_5.zip
+[5]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_5.zip
 
 ## The Butterflies of Tajikistan
 You can download a selection of downsampled pages [here][6].
