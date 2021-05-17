@@ -21,3 +21,6 @@ Below you can find a tutorial for getting started with detecting maps on pages o
 ## Template matching
 
 {% include pdf pdf="template_matching.pdf" %}
+
+## Pixel Classification
+{% include pdf pdf="DigitizeIT Software_final pixel classification.pdf" %}
