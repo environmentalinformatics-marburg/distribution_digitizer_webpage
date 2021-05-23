@@ -25,13 +25,16 @@ Additional slides of Object Detection and Execution Tutorial.
 
 ## Pixel Classification and Georeferencing
 Pixel classification  and Geo-referencing overview and tasks.
+
 {% include pdf pdf="DigitizeIT Software_final pixel classification.pdf" %}
 
 ## Pixel Classification Tutorial
 Lecture slides on Pixel Classification.
+
 {% include pdf pdf="Pixel_Classification.pdf" %}
 
 ## Geo-referencing Tutorial
 Lecture slides on Geo-referencing.
+
 {% include pdf pdf="Geo_referencing.pdf" %}
 
