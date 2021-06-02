@@ -22,7 +22,11 @@ Follow this tutorial Step-by-Step:
 
 <br>
 
-Now you should see the dialog box "DD User interface" if the tutorial is followed correctly!.
+Now you should see the dialog box "DD User interface" if everything went fine:
+
+![Digitizer Interface]({{site.baseurl}}/assets/images/shiny/DD_user_interface.png)
+<figcaption> The Digitizer user interface.
+</figcaption>
 
 
 
