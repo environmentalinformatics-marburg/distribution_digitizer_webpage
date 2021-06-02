@@ -8,27 +8,17 @@ sidebar:
 toc: true
 ---
 
-
-
-
-## Download the Digitizer
-
-The following environments should be installed on your computer for starting the distribution digitizer app locally on your personal computer:
-
- - [R](https://cran.r-project.org/){:target="_blank"} 
- - [RStudio](https://www.rstudio.com/products/rstudio/download/){:target="_blank"}
- - For installing the R shiny package, start RStudio, connect to the internet, and run:
- 
-```markdown
-install.packages("shiny")
-```
-
-
 ## Start the Digitizer
-Open RStudio and execute:
-```markdown
-shiny::runGist("https://gist.github.com/sforteva/138af2ea533c2d1c3d1631b5d2d41e86")
-```
+
+
+Download the required files from the Github repository:
+https://github.com/environmentalinformatics-marburg/distribution_digitizer_students.git
+
+## Digitizer Tutorial
+
+Follow this tutorial Step-by-Step:
+
+{% include pdf pdf="DigitizeIT_Tutorial.pdf" %}
 
 <br>
 
