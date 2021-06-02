@@ -17,7 +17,7 @@ Download the required files from the Github repository:
 
 ## Digitizer Tutorial
 
-Follow this tutorial Step-by-Step:
+Follow this Tutorial Step-by-Step:
 
 {% include pdf pdf="DigitizeIT_Tutorial.pdf" %}
 
