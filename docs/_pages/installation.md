@@ -13,7 +13,7 @@ toc: true
 
 Download the required files from the Github repository:
 
-'https://github.com/environmentalinformatics-marburg/distribution_digitizer_students.git'
+[Github Link](https://github.com/environmentalinformatics-marburg/distribution_digitizer_students.git)
 
 ## Digitizer Tutorial
 
