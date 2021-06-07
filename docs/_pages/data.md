@@ -13,10 +13,12 @@ The book series ["The Butterflies of Palearctic Asia"](https://sites.google.com/
 by Vadim Tshikolovets (e.g. Tshikolovets 1998, 2000, 2003, 2005a, 2005b;
 Tshikolovets et al. 2009; Tshikolovets & Nekrutenko 2012) will serve for testing purposes here.
 
+A selection of single images, also as high resolution .tif files, can be obtained from our course server [here](http://85.214.102.111/data/books_examples/){:target="_blank"}.
 
-Here you can download a couple of test images compressed in one zip-file for each book.
-The pictures are saved in .png format for usage in the Digitizer app.
+Below you can download a couple of test images compressed in one zip-file for each book.
+These images are saved in .png format for initial usage in the Digitizer app.
 Note that you have to unzip the zip-files before you can start working with the contained png-images.
+
 
 
 <!--
