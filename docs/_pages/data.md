@@ -27,72 +27,72 @@ Note that you have to unzip the zip-files before you can start working with the 
 ## The Butterflies of Turkmenistan
 You can download a selection of downsampled pages [here][1].
 
-[1]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_1.zip
+[1]:http://85.214.102.111/data/books_examples/book_01/
 
 ## The Butterflies of Altai, Sayans and Tuva
 You can download a selection of downsampled pages [here][2].
 
-[2]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_2.zip
+[2]:http://85.214.102.111/data/books_examples/book_02/
 
 ## The Butterflies of Russian Far East, Sakhalin, and Kuril Islands
 You can download a selection of downsampled pages [here][3].
 
-[3]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_3.zip
+[3]:http://85.214.102.111/data/books_examples/book_03/
 
 ## The Butterflies of Mongolia
 You can download a selection of downsampled pages [here][4].
 
-[4]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_4.zip
+[4]:http://85.214.102.111/data/books_examples/book_04/
 
 ## The Butterflies of Transbaikal Siberia
 You can download a selection of downsampled pages [here][5].
 
-[5]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_5.zip
+[5]:http://85.214.102.111/data/books_examples/book_05/
 
 ## The Butterflies of Tajikistan
 You can download a selection of downsampled pages [here][6].
 
-[6]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_6.zip
+[6]:http://85.214.102.111/data/books_examples/book_06/
 
 ## The Butterflies of Kazakhstan
 You can download a selection of downsampled pages [here][7].
 
-[7]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_7.zip
+[7]:http://85.214.102.111/data/books_examples/book_07/
 
 ## The Butterflies of Kyrgyzstan
 You can download a selection of downsampled pages [here][8].
 
-[8]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_8.zip
+[8]:http://85.214.102.111/data/books_examples/book_08/
 
 ## The Butterflies of Uzbekistan
 You can download a selection of downsampled pages [here][9].
 
-[9]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_9.zip
+[9]:http://85.214.102.111/data/books_examples/book_09/
 
 ## The Butterflies of Caucasus and Transcaucasia
 You can download a selection of downsampled pages [here][10].
 
-[10]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_10.zip
+[10]:http://85.214.102.111/data/books_examples/book_10/
 
 ## The Butterflies of Iran and Iraq
 You can download a selection of downsampled pages [here][11].
 
-[11]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_11.zip
+[11]:http://85.214.102.111/data/books_examples/book_11/
 
 ## The Butterflies of Ladak
 You can download a selection of downsampled pages [here][12].
 
-[12]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_12.zip
+[12]:http://85.214.102.111/data/books_examples/book_12/
 
 ## The Butterflies of Pakistan
 You can download a selection of downsampled pages [here][13].
 
-[13]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_13.zip
+[13]:http://85.214.102.111/data/books_examples/book_13/
 
 ## The Butterflies of Afghanistan
 You can download a selection of downsampled pages [here][14].
 
-[14]:http://85.214.102.111/digitizer/_site/download/tutorial_1/book_14.zip
+[14]:http://85.214.102.111/data/books_examples/book_14/
 
 
 ## Example page
