@@ -20,7 +20,6 @@ These images are saved in .png format for initial usage in the Digitizer app.
 Note that you have to unzip the zip-files before you can start working with the contained png-images.
 
 
-
 <!--
 -->
 
