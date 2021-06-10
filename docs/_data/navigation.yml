@@ -19,4 +19,6 @@ docs:
           url: /tutorial.html
         - title: "Data"
           url: /data.html
+        - title: "FAQ"
+          url: /faq.html
 
