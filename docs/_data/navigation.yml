@@ -6,6 +6,8 @@ main:
     url: /tutorial.html
   - title: "Data"
     url: /data.html
+  - title: "FAQ"
+    url: /faq.html
   - title: "Lab Home"
     url: https://www.uni-marburg.de/en/fb19/disciplines/physisch/environmentalinformatics
 
