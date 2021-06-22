@@ -33,12 +33,7 @@ feature_row_disperse:
     url: /data.html
     btn_label: "Data"
     btn_class: "btn--primary"
- - image_path: assets/images/teaserimages/question_mark.jpg
-   title: "FAQ"
-   excerpt: "Frequently Asked Questions"
-   url: /faq.html
-   btn_label: "FAQ"
-   btn_class: "btn--primary"   
+
 ---
 
 {% include feature_row id="feature_row_intro" type="center" %}

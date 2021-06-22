@@ -8,6 +8,14 @@ sidebar:
 toc: true
 ---
 
+If you encouter errors while using the digitizer, please post your problem directly on GitHub:
+
+[https://github.com/environmentalinformatics-marburg/distribution_digitizer_students/issues](https://github.com/environmentalinformatics-marburg/distribution_digitizer_students/issues)
+
+Please do not forget to include a proper description and a screenshot!
+
+
+
 ## Why does the pixel classification program detects dark squares too and is that good?
 
 For some values of Guassian and Kernel Filter, the dark squares might retain through the filter because of high pixel intensity values. The goal of the pixel classification program is to detect all the legend elements in the map as much as possible. If the program detects dark squares, then its good.
