@@ -21,6 +21,7 @@ docs:
           url: /tutorial.html
         - title: "Data"
           url: /data.html
+        - title: "Theoretical Background"
+          url: /theoretical_background.html
         - title: "FAQ"
           url: /faq.html
-

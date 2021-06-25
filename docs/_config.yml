@@ -45,7 +45,7 @@ description: >- # this means to ignore newlines until next item
 ##### Site configuration ######################################################
 title_separator          : "|"
 excerpt_separator        : <!--more-->
-locale                   : "de-DE"
+locale                   : "en-EN"
 
 
 
