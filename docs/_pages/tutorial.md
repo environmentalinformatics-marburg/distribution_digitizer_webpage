@@ -10,21 +10,14 @@ toc: true
 
 
 
-In the app, which should look like this
 
-![Digitizer Interface]({{site.baseurl}}/assets/images/shiny/DD_user_interface.png)
-<figcaption> The Digitizer user interface.
-</figcaption>
+## Set your working directory
 
-you first need to set your working directory for executing the commonds of the Digitizer application.
+You first need to set your working directory in the Digitizer application.
 
+![Digitizer Interface]({{site.baseurl}}/assets/images/shiny/steps/1_working_directory.png)
 
-
-## Working Directory
-
-Sets the working directory in the Digitizer application.
-
-Paste the path to your working directory in the field "Working Git Directory". You can find this path in the R Console as it is printed out by default when starting the app.
+Paste the path to your working directory in the field "Path". 
 
 Make sure that you
 * do NOT include in the path
@@ -37,93 +30,88 @@ Make sure that you
 
 
 
+## Create templates
+![Digitizer Interface]({{site.baseurl}}/assets/images/shiny/steps/2_templates.png)
+
+Choose images for selecting areas, which you can save as separate templeate files.
+
+Save map templates in /templates/maps/ and legend symbol templates in /templates/pixels/
+
+The templates saved in /templates/maps will be matched to the content of the files in your input directory for extracting maps.
+
+The templates saved in /templates/pixels will be matched to the content of the files in your output directory with extracted maps (/output/pixeltemp/).
 
 
+## Detect maps
+![Digitizer Interface]({{site.baseurl}}/assets/images/shiny/steps/3_detect_maps.png)
 
 
-## Map clipping: Object detection: Prerequisites
+### Prerequisites
 
-* Clear the input, output, and templates/map directories (= delete the files in there).
-* Copy the input files to data/input and templates to the data/templates/maps.
-* In case if the maps are notcropped, crop template maps and savethem underthe data/templates/mapdirectory.
-* Ensure that the output directory is empty
+* Clear the input, output, and templates/map directories (= delete the files in there)
+* Make sure that your input files are in data/input
+* Ensure that the output directory is empty (there might be files from previous Digitizer runs)
 
 
-## Map clipping: Object detection: Execution
+### Execution
 
-* Check the working directory of the DD-R Shiny application again
-* press "Start the template matching" for doing the object detection
-* Checkthe data/output folder for the results. Also try different threshold values.
+* Check if the working directory is correct again
+* Press "Start map detection"
+* Check the data/output folder for the results. Also try different threshold values. High threshold values will lead to few detections, low values to many detections.
 * The expected results in the output folder are (in this case) all cropped maps from the images in the input directory.
-* Delete all the unwantedor noise images manually.
+* With the current version, you have to delete all duplicated or noisy images in the data/output folder manually. Will be automated in the future.
 
 
-## Pixel classification
 
-* Try some values for the filters and "start the pixel classification", which will use the output from the previous object detection step.
-* The Gaussianfilter recommended value is 9 and the kernel filter recommended value is 5, feel free to try with the other values.
-* The desired output is maps, which have the occurrence points marked in blue in your output folder. These files will then be used for geo-referencing.
+## Classify points on maps
+![Digitizer Interface]({{site.baseurl}}/assets/images/shiny/steps/4_classify_points.png)
+
+Two methods are available: template matching and filtering.
+
+Template matching used the same approach as for clipping maps from images. 
+Here, the templates are symbols extracted from legend elements, which should be saved in /templates/pixels/
+
+Two methods are available: template matching and filtering. 
+Both use the files in data/output/ as input.
+
+
+### Template matching
+
+You first have to set a threshold value between 0 and 1 for template matching.
+Start with values around 0.3.
+
+High values will lead to few detections, high values to (too) many detections.
+
+You can find the classified output in your /output/pixeltemp/ folder
+
+
+### Filtering
+
+Detecting elements on maps with filtering does not require template files.
+Instead, you have to specify parameters for the Kernel and Gaussian filters.
+
+Note:
+* You can only enter odd values between 1 and 9. 
+* The value for the Gaussian filter should be higher than the value for the Kernel filter. 
+* The lower the value for the Gaussian filter, the more points will be detected
+* As a rough guideline start with 5 for the Kernel filter and 9 for the Gaussian filter.
+
+You can find the classified output with the occurrence points marked in blue in your /output/pixelc/ folder.
+These files will subsequently be used for geo-referencing.
 
 
 ## Georeferencing
+![Digitizer Interface]({{site.baseurl}}/assets/images/shiny/steps/5_georeferencing.png)
 
-* Get theopen street map data and the geo-referencer plugin.-The raster files are the output files of pixel classification stored under data/output/pixel_c folder.
-* Your layer and your QGIS project should have the same CRS, namely EPSG (or ESRI): 102025.
-* Know the structure of GCP data, e.g.:It mainly has four columnswith coordinates,The first two columns contain the coordinates of the input image (=image space), the next two columns contain the coordinated in some CRS referringto the real world (=geographical space)
+Use the Ground Control Points (GCPs) you obtained using QGIS as input for this step. 
+See the "theoretical background" page for details.
 
+You need to have a file with GCP points in /templates/geopoints/ with the ending .points. 
+The expected format is the default export of GCPs from QGIS containing the columns mapX, mapY, pixelX, and pixelY.
 
+When you press the "Start georeferencing" button, those GCPs will be applied to the classified maps in your /output/pixelc/ folder.
 
-
-# Move to extra page: 
-
-
-# Theoretical background
-
-## Object detection
-
-Below you can find a tutorial for getting started with detecting maps on pages of scanned books, which is the first step before automatically detecing points (=occurrence records) on these maps afterwards.
-
-{% include pdf pdf="Tutorial_template_matching.pdf" %}
-
-## Template matching
-
-{% include pdf pdf="template_matching.pdf" %}
-
-## Object Detection (Additional Tutorial)
-Additional slides of Object Detection and Execution Tutorial.
-
-{% include pdf pdf="Object_Detection_Additional.pdf" %}
-
-## Pixel Classification and Georeferencing
-Pixel classification  and Geo-referencing overview and tasks.
-
-{% include pdf pdf="DigitizeIT Software_final pixel classification.pdf" %}
-
-## Pixel Classification Tutorial
-Lecture slides on Pixel Classification.
-
-{% include pdf pdf="Pixel_Classification.pdf" %}
-
-## Geo-referencing Tutorial
-Lecture slides on Geo-referencing.
-
-{% include pdf pdf="Geo_referencing.pdf" %}
-
-
-
-
-
-<!--
-## Digitizer Tutorial
-
-Follow this Tutorial Step-by-Step:
-
-{% include pdf pdf="DigitizeIT_Tutorial.pdf" %}
-
-<br>
-
--->
-
+You can find the georeferenced output as GeoTif files in output/georeferencing/ 
 
 
 

@@ -37,7 +37,9 @@ Install them with
 ```R
 install.packages(c("shiny", "reticulate"))
 ```
-While installing "reticulate", if prompted for the additional installation of "miniconda" hit "yes" for obtaining a local Python installation. 
+While installing "reticulate", if prompted for the additional installation of "miniconda" hit "yes" for obtaining a local Python installation.
+
+* The Digitizer makes use of additional functions from several R packages and Pyhon moduls. Installing all theses depencencies might take a while.
 
 
 
