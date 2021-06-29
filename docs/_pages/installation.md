@@ -82,18 +82,27 @@ Now you should see the dialog box "DD User interface" if everything went fine:
 
 
 #### Files
-* app.R: the source code of the shiny application.
-* config.txt: still needed?
-* start_dd_app.R: Open and execute with RStudio for starting the app.
-* README.md: Additional information
+* **app.R** : the source code of the shiny application.
+
+* **config.txt** : This feature is not important for now. In the future, the user can give the values automatically to the software through this file.
+
+* **start_dd_app.R** : Open and execute with RStudio for starting the app.
+
+* **README.md** : Additional information.
 
 #### Folders
-* data
-  * input: Your scanned book pages go in here.
-  * output: output for all modules (map cropping, pixel classification, georeferencing).
-  * templates: Template files created with the Digitizer for map cropping and detecting legend elements on maps. Also Ground Control Points for georeferencing go in here.
-* src: The source code of the application.
-* www: Layout for the application. 
+
+* **data** :
+
+  * **input** : Your scanned book pages go in here
+  
+  * **output** : output for all modules (map cropping, pixel classification, georeferencing). The output of template matching can be found under /data/output, the output of legends template matching can be found under /data/output/classification/matching and the output of filtering can be found under /data/output/classifcation/filtering. The final georeferenced file is under /data/output/georeferencing.
+  
+  * **templates**: Template files created with the Digitizer for map cropping and detecting legend elements on maps. Also Ground Control Points for georeferencing go in here. This is important as the modules require template files and ground control points to run successfully. The templates for map detection should be stored under /data/templates/maps and the templates for legends template matching (pixel classification) should be stored under /data/templates/symbols. The ground control points should be stored under data/templates/geopoints.
+  
+* **src** : The source code of the application.
+
+* **www** : Layout for the application. 
 
 
 
