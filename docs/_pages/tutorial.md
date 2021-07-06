@@ -28,6 +28,7 @@ Make sure that you,
 
 
 ## Create templates
+
 ![Digitizer Interface]({{site.baseurl}}/assets/images/shiny/steps/2_templates.png)
 
 Choose images for selecting areas, which you can save as separate template files.
@@ -40,6 +41,7 @@ The templates saved in /templates/symbols will be matched to the content of the 
 
 
 ## Detect maps
+
 ![Digitizer Interface]({{site.baseurl}}/assets/images/shiny/steps/3_detect_maps.png)
 
 
@@ -61,6 +63,7 @@ The templates saved in /templates/symbols will be matched to the content of the 
 
 
 ## Classify points on maps
+
 ![Digitizer Interface]({{site.baseurl}}/assets/images/shiny/steps/4_classify_points.png)
 
 Two methods are available: template matching and filtering.
@@ -98,6 +101,7 @@ These files will subsequently be used for geo-referencing.
 
 
 ## Georeferencing
+
 ![Digitizer Interface]({{site.baseurl}}/assets/images/shiny/steps/5_georeferencing.png)
 
 Use the Ground Control Points (GCPs) you obtained using QGIS as input for this step. 
@@ -111,6 +115,7 @@ When you press the "Start georeferencing" button, those GCPs will be applied to 
 You can find the georeferenced output as GeoTif files in output/georeferencing/. 
 
 ## Postprocessing
+
 ![Digitizer Interface]({{site.baseurl}}/assets/images/shiny/steps/6_postprocessing.png)
 
 Enter the value of Kernel Filter once again to filter out the non-filled dark occurence points from the image. The output of this step will be a black and white image mask containing the points. Adjust the value of kernel until all the noises have been filtered out and all the points have been detected. Start from the value that was used in step 4.2. and increase or decrease the kernel filter value according to the desired output. 
