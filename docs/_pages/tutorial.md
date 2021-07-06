@@ -104,11 +104,21 @@ Use the Ground Control Points (GCPs) you obtained using QGIS as input for this s
 See the "theoretical background" page for details.
 
 You need to have a file with GCP points in /templates/geopoints/ with the ending .points. 
-The expected format is the default export of GCPs from QGIS containing the columns mapX, mapY, pixelX, and pixelY.
+The expected format is the default export of GCPs from QGIS containing the columns mapX, mapY, pixelX, and pixelY. In some cases, the first line of .points file might be "Information of SRC and projection". In such cases, remove the first line manually. The first line should be the column names of the points.
 
 When you press the "Start georeferencing" button, those GCPs will be applied to the classified maps in your /output/classification/filtering/ folder.
 
 You can find the georeferenced output as GeoTif files in output/georeferencing/. 
 
+## Postprocessing
+![Digitizer Interface]({{site.baseurl}}/assets/images/shiny/steps/6_postprocessing.png)
+
+Enter the value of Kernel Filter once again to filter out the non-filled dark occurence points from the image. The output of this step will be a black and white image mask containing the points. Adjust the value of kernel until all the noises have been filtered out and all the points have been detected. Start from the value that was used in step 4.2. and increase or decrease the kernel filter value according to the desired output. 
+
+Once you get the desired output in the data/output/mask/non_georeferenced_masks/ folder, then georeference the masks by selecting "Georeference the masks" the button. The georeferenced masks will appear on /data/output/mask/georeferenced_masks/ directory.
+
+The final step will be extracting the centroid points of the contour of these masks. Once you select "Extract the points" button, the output can be found on data/output/mask/georecords.csv file. 
+
+Remember!, the kernel filter value you enter in this step will be applied for the step 6.2. and 6.3. The kernel filter value from step 4.2. and 6.1. doesn't have to be same. In both the cases, you should decide the kernel filter value based on the output. 
 
 
