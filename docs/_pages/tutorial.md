@@ -116,7 +116,7 @@ You can find the georeferenced output as GeoTif files in output/georeferencing/.
 
 ## Postprocessing
 
-![Digitizer Interface]({{site.baseurl}}/assets/images/shiny/steps/6_postprocessing.PNG)
+![Digitizer Interface]({{site.baseurl}}/assets/images/shiny/steps/6_postprocessing.png)
 
 Enter the value of Kernel Filter once again to filter out the non-filled dark occurence points from the image. The output of this step will be a black and white image mask containing the points. Adjust the value of kernel until all the noises have been filtered out and all the points have been detected. Start from the value that was used in step 4.2. and increase or decrease the kernel filter value according to the desired output. 
 
