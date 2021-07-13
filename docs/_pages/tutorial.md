@@ -22,7 +22,7 @@ Make sure that you,
   * empty spaces,
   * special characters,
 * use / and not \ to separate folders, and
-* that your path ends with /.
+* that your path ends with /
 
 
 
@@ -33,7 +33,7 @@ Make sure that you,
 
 Choose images for selecting areas, which you can save as separate template files.
 
-Save map templates in /templates/maps/ and legend symbol templates in /templates/symbols/.
+Save map templates in /templates/maps/ and legend symbol templates in /templates/symbols/
 
 The templates saved in /templates/maps will be matched to the content of the files in your input directory for extracting maps.
 
@@ -47,8 +47,8 @@ The templates saved in /templates/symbols will be matched to the content of the 
 
 ### Prerequisites
 
-* Clear the input, output, and templates/map directories (= delete the files in there).
-* Make sure that your input files are in data/input.
+* Make sure that your input files are in data/input/
+* Make sure that your template files are in data/templates/maps/
 * Ensure that the output directory is empty (there might be files from previous Digitizer runs).
 
 
@@ -56,7 +56,7 @@ The templates saved in /templates/symbols will be matched to the content of the 
 
 * Check if the working directory is correct again.
 * Press "Start map detection".
-* Check the data/output folder for the results. Also try different threshold values. High threshold values will lead to few detections, low values to many detections.
+* Check the data/output/ folder for the results. Also try different threshold values. High threshold values will lead to few detections, low values to many detections.
 * The expected results in the output folder are (in this case) all cropped maps from the images in the input directory.
 * With the current version, you have to delete all duplicated or noisy images in the data/output folder manually. Will be automated in the future.
 
@@ -69,7 +69,7 @@ The templates saved in /templates/symbols will be matched to the content of the 
 Two methods are available: template matching and filtering.
 
 Template matching used the same approach as for clipping maps from images. 
-Here, the templates are symbols extracted from legend elements, which should be saved in /templates/symbols/.
+Here, the templates are symbols extracted from legend elements, which should be saved in /templates/symbols/
 
 Two methods are available: template matching and filtering. 
 Both use the files in data/output/ as input.
@@ -112,7 +112,7 @@ The expected format is the default export of GCPs from QGIS containing the colum
 
 When you press the "Start georeferencing" button, those GCPs will be applied to the classified maps in your /output/classification/filtering/ folder.
 
-You can find the georeferenced output as GeoTif files in output/georeferencing/. 
+You can find the georeferenced output as GeoTif files in output/georeferencing/
 
 ## Postprocessing
 
@@ -120,7 +120,7 @@ You can find the georeferenced output as GeoTif files in output/georeferencing/.
 
 Enter the value of Kernel Filter once again to filter out the non-filled dark occurence points from the image. The output of this step will be a black and white image mask containing the points. Adjust the value of kernel until all the noises have been filtered out and all the points have been detected. Start from the value that was used in step 4.2. and increase or decrease the kernel filter value according to the desired output. 
 
-Once you get the desired output in the data/output/mask/non_georeferenced_masks/ folder, then georeference the masks by selecting "Georeference the masks" the button. The georeferenced masks will appear on /data/output/mask/georeferenced_masks/ directory.
+Once you get the desired output in the data/output/mask/non_georeferenced_masks/ folder, then georeference the masks by selecting "Georeference the masks" the button. The georeferenced masks will appear on /data/output/mask/georeferenced_masks/ folder.
 
 The final step will be extracting the centroid points of the contour of these masks. Once you select "Extract the points" button, the output can be found on data/output/mask/georecords.csv file. 
 
