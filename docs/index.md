@@ -43,4 +43,6 @@ feature_row_disperse:
 {% include feature_row id="feature_row_disperse" %}
 
 
-
+We would be happy if you report any bugs or ideas for improvements as issue in the GitHub repository of the Distribution Digitizer, 
+[here](https://github.com/environmentalinformatics-marburg/distribution_digitizer_students/issues){:target="_blank"}.
+{: .notice--info}
