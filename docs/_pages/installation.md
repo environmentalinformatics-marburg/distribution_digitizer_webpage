@@ -30,20 +30,70 @@ In any case, make sure you know the path to this directory. You need to enter it
 
 Make sure that you have the latest version installed.
 
+* Miniconda (available for free download)[here](https://docs.anaconda.com/miniconda/install/)
 
-* R Packages "shiny" and "reticulate"
+The Miniconda installation guide advises against adding Miniconda to your system's PATH during installation. However, the Distribution Digitizer tool relies on environment variables to function correctly for now. Adding Miniconda to the PATH allows your system to locate and use the Miniconda commands directly from any directory. Without this, the Distribution Digitizer tool might not work properly because it won't be able to find the necessary dependencies or tools provided by Miniconda. This means that for the tool to work as expected, you need to have Miniconda accessible via your system's PATH.
 
-Install them with 
+What to Do:
+During the installation of Miniconda, select the "Add Miniconda to my PATH environment variable" option. This will automatically configure your system to recognize Miniconda commands without additional setup.
+If you choose not to add it during installation, you can configure it manually by editing your system's PATH environment variable.
+
+How to Add Miniconda to Your PATH in Windows
+1. Locate Your Miniconda Installation Directory
+By default, Miniconda is installed in a directory such as:
+C:\Users\<YourUsername>\Miniconda3
+2. Press Win + S, type Environment Variables, and select Edit the system environment variables.
+3. In the System Properties window that opens, click the Environment Variables... button at the bottom.
+4. Edit the PATH Variable
+In the Environment Variables window, under System Variables, find the variable named Path and select it. Click Edit....
+5. In the Edit Environment Variable window, click New.
+6. Add the following path
+C:\Users\<YourUsername>\Miniconda3
+7. Click OK to close all windows.
+
+Verify the PATH Update
+Open a new Command Prompt window (close any existing ones first to load the new PATH).
+Type conda --version. If Miniconda is correctly added to your PATH, this command will show the installed version of Conda.
+
+* Tesseract (available free for download)[here](https://ub-mannheim.github.io/Tesseract_Dokumentation/Tesseract_Doku_Windows.html?utm_source=chatgpt.com)
+Tesseract is a Software for text recognition. Distribution digitizer uses it to detect species names. 
+
+Again, add tesseract to your PATH.
+
+
+## First steps
+
+After installing the prerequierd programs and unzipped the distribution digitizer folder, open the **start_dd_app** file. 
+
+* The Digitizer makes use of additional functions from several R packages and Pyhon moduls. 
+
+Run these commands for that:
 ```R
-install.packages(c("shiny", "reticulate"))
+py_install(packages = "opencv", pip = FALSE) #used for map matching
+py_install(packages = "pillow", pip = FALSE)
+py_install(packages = "tesseract", pip = FALSE)
+py_install(packages = "pandas", pip = FALSE)
+py_install(packages = "GDAL", pip = FALSE)
+py_install(packages = "imutils", pip = FALSE)
+py_install(packages = "rasterio", pip = FALSE)
+py_install(packages = "geopandas", pip = FALSE)
 ```
-While installing "reticulate", if prompted for the additional installation of "miniconda" hit "yes" for obtaining a local Python installation.
+Installing all theses depencencies might take a while.
+After installation, you can de-activate the code by adding a "#" in front of those lines.
+It won't be needed after all packages have been installed.
 
-* The Digitizer makes use of additional functions from several R packages and Pyhon moduls. Installing all theses depencencies might take a while.
+```R
+#py_install(packages = "opencv", pip = FALSE) #used for map matching
+#py_install(packages = "pillow", pip = FALSE)
+#py_install(packages = "tesseract", pip = FALSE)
+#py_install(packages = "pandas", pip = FALSE)
+#py_install(packages = "GDAL", pip = FALSE)
+#py_install(packages = "imutils", pip = FALSE)
+#py_install(packages = "rasterio", pip = FALSE)
+#py_install(packages = "geopandas", pip = FALSE)
+```
 
-
-
-### Set your working directory
+* Set your working directory
 
 The working directory is the path to the folder with your downloaded files.
 
@@ -62,19 +112,22 @@ setwd("D:/distribution_digitizer_students-main/") # uncomment this line for sett
 ```
 
 
+* R Packages "shiny" and "reticulate"
+
+Install them with 
+```R
+install.packages(c("shiny", "reticulate"))
+```
+
 ### Start the Digitizer
 
-Open the file "start_dd_app.R" with RStudio and run the whole code, either by selecting the whole code and hitting control + enter or by pressing the button "Run App".
+After commenting the installation code to de-activate it, you can start the app anytime. Start it either by selecting the whole code and hitting control + enter or by pressing the button "Run App".
 
 Now you should see the dialog box "DD User interface" if everything went fine:
 
 ![Digitizer Interface]({{site.baseurl}}/assets/images/shiny/DD_user_interface.png)
 <figcaption> The Digitizer user interface.
 </figcaption>
-
-
-
-
 
 
 
@@ -103,7 +156,6 @@ Now you should see the dialog box "DD User interface" if everything went fine:
 * **src** : The source code of the application.
 
 * **www** : Layout for the application. 
-
 
 
 
